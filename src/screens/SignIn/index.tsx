@@ -91,6 +91,15 @@ export function SignIn() {
                   Password inválido. 
                 </FormControl.ErrorMessage>
               </FormControl>
+
+              <Button 
+                mt={7}
+                colorScheme="purple"
+                mb={2}
+              >
+                Entrar
+              </Button>
+
           </Box>
           
           <Box alignItems="center" w="100%" mt={10}>
