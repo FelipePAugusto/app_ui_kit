@@ -85,6 +85,11 @@ export function SignIn() {
                   }
                 />
 
+                <FormControl.ErrorMessage
+                  leftIcon={<WarningOutlineIcon size="xs" />}
+                >
+                  Password inválido. 
+                </FormControl.ErrorMessage>
               </FormControl>
           </Box>
           
