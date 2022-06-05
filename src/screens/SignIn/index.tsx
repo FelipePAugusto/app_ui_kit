@@ -48,6 +48,24 @@ export function SignIn() {
               >
                   Entrar
               </Heading>
+
+              <FormControl >
+                <FormControl.Label>E-mail</FormControl.Label>
+                <Input 
+                  placeholder="seu@email.com"
+                  type="text"
+                  InputLeftElement={
+                    <Icon 
+                      as={<MaterialIcons name="person" />}
+                      size={5}
+                      ml={2}
+                      color="muted.400"                    
+                    />
+                  }
+                />
+              </FormControl>
+
+              
           </Box>
           
           <Box alignItems="center" w="100%" mt={10}>
