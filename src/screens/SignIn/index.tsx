@@ -70,7 +70,22 @@ export function SignIn() {
                 </FormControl.ErrorMessage>
               </FormControl>
 
-              
+              <FormControl>
+                <FormControl.Label>Senha</FormControl.Label>
+                <Input 
+                  placeholder="Informe sua senha."
+                  type="password"
+                  InputLeftElement={
+                    <Icon 
+                      as={<MaterialIcons name="lock" />}
+                      size={5}
+                      ml={2}
+                      color={"muted.400"} 
+                    />
+                  }
+                />
+
+              </FormControl>
           </Box>
           
           <Box alignItems="center" w="100%" mt={10}>
