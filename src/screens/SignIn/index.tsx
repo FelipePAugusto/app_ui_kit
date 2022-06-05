@@ -100,6 +100,9 @@ export function SignIn() {
                 Entrar
               </Button>
 
+              <Checkbox value="agree">
+                Concordo com a politica de segurança.
+              </Checkbox>
           </Box>
           
           <Box alignItems="center" w="100%" mt={10}>
