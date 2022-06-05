@@ -39,6 +39,16 @@ export function SignIn() {
           width="full"
           p={7}
         >  
+          <Box width="full">
+              <Heading 
+                color="coolGray.700" 
+                mb={5} 
+                _dark={{color: "white"}} 
+                _light={{color: "black"}}
+              >
+                  Entrar
+              </Heading>
+          </Box>
           
           <Box alignItems="center" w="100%" mt={10}>
             <Slider w="3/4" maxW="300" defaultValue={70} minValue={0} maxValue={100} accessibilityLabel="Exemplo de Slider" step={10}>
