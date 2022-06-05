@@ -63,6 +63,11 @@ export function SignIn() {
                     />
                   }
                 />
+                <FormControl.ErrorMessage
+                  leftIcon={<WarningOutlineIcon size="xs" />}
+                >
+                  E-mail inválido. 
+                </FormControl.ErrorMessage>
               </FormControl>
 
               
