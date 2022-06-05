@@ -38,7 +38,17 @@ export function SignIn() {
         <VStack 
           width="full"
           p={7}
-        > 
+        >  
+          
+          <Box alignItems="center" w="100%" mt={10}>
+            <Slider w="3/4" maxW="300" defaultValue={70} minValue={0} maxValue={100} accessibilityLabel="Exemplo de Slider" step={10}>
+              <Slider.Track>
+                <Slider.FilledTrack />
+              </Slider.Track>
+              <Slider.Thumb />
+            </Slider>
+          </Box>
+
           <Center>
             <HStack alignItems="center" space={4} mt={105}>
               <Text>Dark</Text>
