@@ -28,7 +28,13 @@ export function SignIn() {
         _dark={{ bg: "black" }}
         _light={{ bg: "white" }}
       >        
-        
+        <Image 
+          size={180}
+          source={{ uri: "https://github.com/FelipePAugusto.png" }}
+          alt="User Photo"
+          resizeMode="cover"
+          rounded={95}
+        />
       </Center>
   );
 }
