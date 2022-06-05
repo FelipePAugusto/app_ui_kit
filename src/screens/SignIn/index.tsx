@@ -35,6 +35,25 @@ export function SignIn() {
           resizeMode="cover"
           rounded={95}
         />
+        <VStack 
+          width="full"
+          p={7}
+        > 
+          <Center>
+            <HStack alignItems="center" space={4} mt={105}>
+              <Text>Dark</Text>
+              <Switch 
+                size="sm" 
+                isChecked={colorMode === "light"}
+                onToggle={toggleColorMode}
+                aria-label={
+                  colorMode === "light" ? "Troque para o Tema Claro." : "Troque para o Tema Escuro."
+                }
+              />
+              <Text>Light</Text>
+            </HStack>
+          </Center>
+        </VStack>
       </Center>
   );
 }
