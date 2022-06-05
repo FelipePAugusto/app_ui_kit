@@ -49,7 +49,7 @@ export function SignIn() {
                   Entrar
               </Heading>
 
-              <FormControl >
+              <FormControl  isRequired>
                 <FormControl.Label>E-mail</FormControl.Label>
                 <Input 
                   placeholder="seu@email.com"
