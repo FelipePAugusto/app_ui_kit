@@ -1,10 +1,11 @@
 import React from "react";
-import { NativeBaseProvider, Box } from "native-base";
+import { NativeBaseProvider } from "native-base";
+import { SignIn } from "./src/screens/SignIn";
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <Box>Hello world</Box>
+      <SignIn />
     </NativeBaseProvider>
   );
 }
